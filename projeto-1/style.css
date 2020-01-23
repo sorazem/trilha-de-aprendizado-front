@@ -5,13 +5,13 @@ body{
 nav{
   padding: 1.6em;
   width: 100%;
-  background-color: #5CB9F2;
+  background-color: #1E3E59;
   position: fixed;
   font-family: "Oswald";
 }
 
 nav a{
-  padding: 2.5em;
+  padding: 1.3em 2.5em;
   font-size: 1.2em;
   text-decoration: none;
   color: white;
@@ -19,4 +19,45 @@ nav a{
 
 nav a:hover{
   background-color: rgba(255,255,255,0.2);
+}
+
+header{
+  background-image: url("imagens/background2.png");
+  height: 100vh;
+}
+
+h4{
+  font-family: 'Exo', sans-serif;
+  font-size: 1.5em;
+  margin: 0.7em;
+}
+
+.card{
+  width: 26%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 3em;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  text-align: center;
+}
+
+.parallax{
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#valores{
+  padding: 5em 2em 3em 2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
