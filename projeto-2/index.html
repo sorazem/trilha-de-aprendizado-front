@@ -1,21 +1,38 @@
 <html lang="pt-br">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Super Quiz</title>
+        <title>Star Wars Quiz</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Lato&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Star Wars</h1>
-        <h2>quiz</h2>
-        <section id="quiz">
-            <h3>Você consegue acertar todas as perguntas?</h3>
-            <p>Acha que sabe sobre o universo Star Wars? Então se joga nesse quiz!</p>
-            <p>São 10 perguntas e você terá um tempo para escolher a resposta.</p>
-            <p>Que a força esteja com você, padawan.</p>
-            <p id="time"></p>
-            <button onclick="startQuiz()">COMEÇAR!</button>
+        <h1 class="scale-up-center">Star Wars</h1>
+        <h2 class="slide-top">quiz</h2>
+        <section id="quiz-container">
+            <section id="header">
+                <p id="progress"></p>
+                <p id="time"></p>
+            </section>
+            <section id="quiz">
+                <h3>Você consegue acertar todas as perguntas?</h3>
+                <p>Acha que sabe sobre o universo Star Wars? Então se joga nesse quiz!</p>
+                <p>São 10 perguntas e você terá um tempo para escolher a resposta.</p>
+                <p>Que a força esteja com você, padawan.</p>
+                <button onclick="startQuiz()">COMEÇAR!</button>
+            </section>
         </section>
+        <audio controls id="theme">
+            <source src="audio/Theme.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <audio controls id="fail">
+            <source src="audio/fail.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <audio controls id="lightsaber4">
+            <source src="audio/fx4.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
         <script type="text/javascript" src="questions.js"></script> 
         <script type="text/javascript" src="quiz.js"></script> 
     </body>

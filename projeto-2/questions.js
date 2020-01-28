@@ -1,72 +1,92 @@
 const questions = [
     {
-        question: '',
+        question: 'Quem atirou primeiro?',
         answers: {
-
+            a: 'Han Solo',
+            b: 'Greedo',
+            c: 'Não sei'
         },
-        correctAnswer: ''
+        correctAnswer: 'a'
     },
     {
-        question: '',
+        question: 'O que Luke Skywalker perdeu na luta com Darth Vader?',
         answers: {
-
+            a: 'Mão esquerda',
+            b: 'Mão direita',
+            c: 'Pé esquerdo'
         },
-        correctAnswer: ''
+        correctAnswer: 'b'
     },
     {
-        question: '',
+        question: 'Quem matou Jabba, o Hutt?',
         answers: {
-
+            a: 'Han Solo',
+            b: 'C-3PO',
+            c: 'Princesa Leia'
         },
-        correctAnswer: ''
+        correctAnswer: 'c'
     },
     {
-        question: '',
+        question: 'Onde as Guerras Clônicas começaram?',
         answers: {
-
+            a: 'Tatooine',
+            b: 'Naboo',
+            c: 'Geonosis'
         },
-        correctAnswer: ''
+        correctAnswer: 'c'
     },
     {
-        question: '',
+        question: 'Quem libertou a Princesa Leia das correntes no palácio do Jabba',
         answers: {
-
+            a: 'C-3PO',
+            b: 'R2-D2',
+            c: 'Luke Skywalker'
         },
-        correctAnswer: ''
+        correctAnswer: 'b'
     },
     {
-        question: '',
+        question: 'Qual é a espécie do Chewbacca?',
         answers: {
-
+            a: 'Rodian',
+            b: 'Wookie',
+            c: 'Ewok'
         },
-        correctAnswer: ''
+        correctAnswer: 'b'
     },
     {
-        question: '',
+        question: 'De acordo com o mestre Yoda, qual é o caminho para o lado negro?',
         answers: {
-
+            a: 'Dor',
+            b: 'Ódio',
+            c: 'Medo'
         },
-        correctAnswer: ''
+        correctAnswer: 'c'
     },
     {
-        question: '',
+        question: 'Qual é o nome de batismo do Kylo Ren?',
         answers: {
-
+            a: 'John',
+            b: 'Ben',
+            c: 'Daniel'
         },
-        correctAnswer: ''
+        correctAnswer: 'b'
     },
     {
-        question: '',
+        question: 'Qual o planeta natal do Darth Vader?',
         answers: {
-
+            a: 'Dantooine',
+            b: 'Coruscant',
+            c: 'Tatooine'
         },
-        correctAnswer: ''
+        correctAnswer: 'c'
     },
     {
-        question: '',
+        question: 'A Ascensão Skywalker foi um delírio coletivo?',
         answers: {
-
+            a: 'Sim',
+            b: 'Não',
+            c: 'Talvez'
         },
-        correctAnswer: ''
+        correctAnswer: 'a'
     }
 ]
